@@ -40,6 +40,10 @@ const randomNumber = Math.random();
 const ovoce = ['jablko', 'banan', 'pomeranc'];
 const arrayLength = ovoce.length;
 
+//Spojeni prvku
+const ovoce1 = ['jablko', 'banan', 'pomeranc'];
+const joinedOvoce1 = ovoce1.join(', ');
+
 //Jestli je člověk zletilý či nezletilý
 const vek = 20;
 const jeDospely = vek >= 18 ? 'Dospělý' : 'Nezletilý';
