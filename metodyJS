@@ -1,49 +1,45 @@
-//Scitani cisel
+//1. Scitani cisel
 function scitaniCisel (let a, b){
 let vysledek = a + b;
 return vysledek;
 }
 scitaniCisel(3,6);
 
-//Odcitani cisel
+//2. Odcitani cisel
 function odcitaniCisel (let a, b){
 let vysledek = a - b;
 return vysledek;
 }
 odcitaniCisel(8,5);
 
-//Deleni cisel
+//3. Deleni cisel
 function deleniCisel (let a, b){
 let vysledek = a % b;
 return vysledek;
 }
 deleniCisel(4,2);
 
-//Nasobeni cisel
+//4. Nasobeni cisel
 function nasobeniCisel (let a, b){
 let vysledek = a * b;
 return vysledek;
 }
 nasobeniCisel(3,5);
 
-//Odmocnina
+//5. Odmocnina
 const number = 25;
 const squareRoot = Math.sqrt(number);
 
-//Získání času
+//6. Získání času
 const currentDate = new Date();
 
-//Získání náhodného čísla
+//7. Získání náhodného čísla
 const randomNumber = Math.random();
 
-//Určení délky pole
+//8. Určení délky pole
 const ovoce = ['jablko', 'banan', 'pomeranc'];
 const arrayLength = ovoce.length;
 
-//Spojeni prvku
-const ovoce1 = ['jablko', 'banan', 'pomeranc'];
-const joinedOvoce1 = ovoce1.join(', ');
-
-//Jestli je člověk zletilý či nezletilý
+//9. Jestli je člověk zletilý či nezletilý
 const vek = 20;
 const jeDospely = vek >= 18 ? 'Dospělý' : 'Nezletilý';
